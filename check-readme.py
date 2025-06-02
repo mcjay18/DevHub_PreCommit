@@ -5,6 +5,10 @@ import os
 import sys
 
 
+__version__ = "1.0.0"
+
+
+
 def main():
     # Define the expected README filename
     readme_files = ["README.md", "README.rst", "README.txt", "README"]
