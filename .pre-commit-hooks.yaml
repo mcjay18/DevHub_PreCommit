@@ -1,7 +1,7 @@
 -   id: check-readme
     name: check-readme
     description: 'Check for README file'
-    entry: check-readme
+    entry: python check-readme.py
     language: python
     types: [python]
     additional_dependencies: []
