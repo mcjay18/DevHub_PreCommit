@@ -1,10 +1,8 @@
--   id: mypy
-    name: mypy
-    description: ''
-    entry: mypy
+-   id: check-readme
+    name: check-readme
+    description: 'Check for README file'
+    entry: check-readme
     language: python
-    'types_or': [python, pyi]
-    args: ["--ignore-missing-imports", "--scripts-are-modules"]
-    require_serial: true
+    types: [python]
     additional_dependencies: []
     minimum_pre_commit_version: '2.9.2'
